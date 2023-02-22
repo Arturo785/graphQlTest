@@ -20,6 +20,8 @@ import kotlinx.coroutines.launch
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
+    //taken from https://www.youtube.com/watch?v=VxGCg7pY68o
+
 
     private val viewModel: CharacterViewModel by viewModels()
     private lateinit var charactersListAdapter: CharactersListAdapter
